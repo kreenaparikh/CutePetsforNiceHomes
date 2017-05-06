@@ -12,6 +12,9 @@
 		92DCE52D1EBE3D4F00EE8456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE52B1EBE3D4F00EE8456 /* Main.storyboard */; };
 		92DCE52F1EBE3D4F00EE8456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE52E1EBE3D4F00EE8456 /* Assets.xcassets */; };
 		92DCE5321EBE3D4F00EE8456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DCE5301EBE3D4F00EE8456 /* LaunchScreen.storyboard */; };
+		92DCE53A1EBE3DA100EE8456 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE5391EBE3DA100EE8456 /* SecondPage.swift */; };
+		92DCE53C1EBE43C400EE8456 /* Home Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE53B1EBE43C400EE8456 /* Home Page.swift */; };
+		92DCE53E1EBE46D500EE8456 /* Cats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DCE53D1EBE46D500EE8456 /* Cats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		92DCE52E1EBE3D4F00EE8456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DCE5311EBE3D4F00EE8456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DCE5331EBE3D4F00EE8456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DCE5391EBE3DA100EE8456 /* SecondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		92DCE53B1EBE43C400EE8456 /* Home Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Home Page.swift"; sourceTree = "<group>"; };
+		92DCE53D1EBE46D500EE8456 /* Cats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 				92DCE5271EBE3D4F00EE8456 /* AppDelegate.swift */,
 				92DCE5291EBE3D4F00EE8456 /* ViewController.swift */,
 				92DCE52B1EBE3D4F00EE8456 /* Main.storyboard */,
+				92DCE53B1EBE43C400EE8456 /* Home Page.swift */,
+				92DCE5391EBE3DA100EE8456 /* SecondPage.swift */,
 				92DCE52E1EBE3D4F00EE8456 /* Assets.xcassets */,
 				92DCE5301EBE3D4F00EE8456 /* LaunchScreen.storyboard */,
+				92DCE53D1EBE46D500EE8456 /* Cats.swift */,
 				92DCE5331EBE3D4F00EE8456 /* Info.plist */,
 			);
 			path = "Cute Pets for Nice Homes";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DCE53C1EBE43C400EE8456 /* Home Page.swift in Sources */,
 				92DCE52A1EBE3D4F00EE8456 /* ViewController.swift in Sources */,
+				92DCE53E1EBE46D500EE8456 /* Cats.swift in Sources */,
 				92DCE5281EBE3D4F00EE8456 /* AppDelegate.swift in Sources */,
+				92DCE53A1EBE3DA100EE8456 /* SecondPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
