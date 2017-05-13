@@ -79,6 +79,9 @@ Co-CEO Kreena and Rishima
                                     <color key="titleColor" red="0.56785357960000005" green="0.36917037549999998" blue="0.23016638189999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="T4N-Of-vdh" kind="presentation" id="rJi-Mx-kzU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -246,6 +249,9 @@ Co-CEO Kreena and Rishima
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="f5Y-GL-WVy" kind="presentation" id="w5B-75-s1x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okL-BD-bG8">
                                 <rect key="frame" x="16" y="37" width="34" height="30"/>
@@ -253,6 +259,9 @@ Co-CEO Kreena and Rishima
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="01J-lp-oVM" kind="presentation" id="PAt-1T-7Zd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0r" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcf-MN-bj0">
                                 <rect key="frame" x="223" y="252" width="17" height="21"/>
@@ -266,6 +275,9 @@ Co-CEO Kreena and Rishima
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="HBd-gO-Y5G" kind="presentation" id="oBH-hh-whH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edb-VH-1M3">
                                 <rect key="frame" x="214" y="347" width="113" height="48"/>
@@ -274,6 +286,9 @@ Co-CEO Kreena and Rishima
                                 <state key="normal" title="Adopter">
                                     <color key="titleColor" red="0.42467316259999999" green="0.29519915559999999" blue="0.19910891850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="6Rt-mE-7vM" kind="presentation" id="a3C-Mw-fY0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -424,6 +439,9 @@ Co-CEO Kreena and Rishima
                                 <state key="normal" title="Back ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="T4N-Of-vdh" kind="presentation" id="hBH-zL-Z85"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6d0-cr-rCG">
                                 <rect key="frame" x="134" y="75" width="80" height="45"/>
@@ -480,4 +498,7 @@ Co-CEO Kreena and Rishima
         <image name="images" width="137" height="91"/>
         <image name="images-1" width="289" height="174"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rJi-Mx-kzU"/>
+    </inferredMetricsTieBreakers>
 </document>
