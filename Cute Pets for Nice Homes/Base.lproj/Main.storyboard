@@ -42,11 +42,11 @@
                                 </state>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zKT-x1-Tln">
-                                <rect key="frame" x="19" y="244" width="340" height="221"/>
+                                <rect key="frame" x="19" y="244" width="340" height="218"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Welcome to Cute Pets for Nice Homes!
-We created this app so it would be easy and convenient for people to find their perfect companion from a wide variety of shelters in just a few minutes. Our goal is to help shelter animals all over the world find loving, happy families. We hope were able to help you find your perfect pet.                                                                   Happy Adopting,
+We created this app so it would be easy and convenient for people to find their ideal companion from a wide variety of shelters in just a few minutes. Our goal is to help shelter animals all over the world find loving, happy families. We hope are able to help you find the perfect pet.                                                                   Happy Adopting,
 Co-CEOs Kreena and Rishima
 </string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
