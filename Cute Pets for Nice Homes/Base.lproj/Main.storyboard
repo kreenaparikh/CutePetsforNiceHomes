@@ -10,14 +10,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="NXM-2i-WEG">
-            <objects>
-                <viewController id="Z9P-RK-nZb" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QC0-pd-BSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="157" y="508"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="AiU-of-1nC">
             <objects>
                 <viewController id="ZpA-Md-TsS" sceneMemberID="viewController">
