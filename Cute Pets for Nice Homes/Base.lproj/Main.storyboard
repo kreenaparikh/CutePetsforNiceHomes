@@ -35,7 +35,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykn-l8-7M3">
-                                <rect key="frame" x="7" y="7" width="95" height="30"/>
+                                <rect key="frame" x="7" y="24" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign up/Login">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -83,7 +83,7 @@ Co-CEOs Kreena and Rishima
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATp-pH-hKN">
-                                <rect key="frame" x="10" y="7" width="34" height="30"/>
+                                <rect key="frame" x="10" y="21" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -259,17 +259,14 @@ Co-CEOs Kreena and Rishima
                                 <state key="normal" title="Nicky"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laL-zk-cB2">
-                                <rect key="frame" x="9" y="0.0" width="52" height="30"/>
+                                <rect key="frame" x="9" y="17" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Log out"/>
                                 <connections>
                                     <segue destination="1Yw-q6-4Az" kind="presentation" id="toE-1N-q7h"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="dmp-Pb-e2J">
-                                <rect key="frame" x="16" y="90" width="155" height="135"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJe-r0-0pb">
                                 <rect key="frame" x="26" y="142" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -281,6 +278,10 @@ Co-CEOs Kreena and Rishima
                                     <segue destination="qX7-WO-9od" kind="presentation" id="VXp-76-mZp"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dmp-Pb-e2J">
+                                <rect key="frame" x="9" y="84" width="170" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -492,7 +493,7 @@ Co-CEOs Kreena and Rishima
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKf-S0-9zN">
-                                <rect key="frame" x="67" y="245" width="241" height="30"/>
+                                <rect key="frame" x="67" y="259" width="241" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Don't have an account yet? Sign up"/>
                                 <connections>
@@ -500,13 +501,33 @@ Co-CEOs Kreena and Rishima
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mg-iT-s5a">
-                                <rect key="frame" x="0.0" y="0.0" width="70" height="45"/>
+                                <rect key="frame" x="-1" y="16" width="70" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back ">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="ZpA-Md-TsS" kind="presentation" id="jrC-9b-6zh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8y-zG-Zja">
+                                <rect key="frame" x="26" y="221" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login: Shelter">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VuO-Wn-jw9" kind="presentation" id="fAN-7C-vbJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmE-mn-PCV">
+                                <rect key="frame" x="238" y="221" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login: Adopter">
+                                    <color key="titleColor" red="0.0082375323834197323" green="0.0082375323834197323" blue="0.0082375323834197323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JYS-u5-9NO" kind="presentation" id="DvD-9v-pAY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -558,7 +579,7 @@ Co-CEOs Kreena and Rishima
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0L7-qI-FC3">
-                                <rect key="frame" x="16" y="8" width="34" height="30"/>
+                                <rect key="frame" x="16" y="24" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.006092130829" green="0.0042347669570000001" blue="0.0028563085400000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -732,13 +753,17 @@ Co-CEOs Kreena and Rishima
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log out"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-2" translatesAutoresizingMaskIntoConstraints="NO" id="eKt-VO-dT4">
+                                <rect key="frame" x="327" y="45" width="46" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xa6-M1-sJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1953" y="1076"/>
+            <point key="canvasLocation" x="1952.8" y="1075.4122938530736"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="sPi-ZF-g7v">
@@ -753,7 +778,7 @@ Co-CEOs Kreena and Rishima
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOd-2F-GM8">
-                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
+                                <rect key="frame" x="16" y="15" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.0031776230569948716" green="0.0031776230569948716" blue="0.0031776230569948716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -763,7 +788,7 @@ Co-CEOs Kreena and Rishima
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hamsters, Guinea Pigs, and Pocket Pets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVg-1b-fqP">
-                                <rect key="frame" x="34" y="49" width="306" height="21"/>
+                                <rect key="frame" x="34" y="59" width="306" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -814,7 +839,7 @@ Co-CEOs Kreena and Rishima
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfM-0P-TT7">
-                                <rect key="frame" x="9" y="0.0" width="34" height="30"/>
+                                <rect key="frame" x="16" y="26" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.0031776230569999999" green="0.0031776230569999999" blue="0.0031776230569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -906,7 +931,7 @@ Co-CEOs Kreena and Rishima
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sc5-TE-qR0">
-                                <rect key="frame" x="22" y="0.0" width="34" height="30"/>
+                                <rect key="frame" x="20" y="25" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -990,8 +1015,15 @@ Co-CEOs Kreena and Rishima
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animal Added to Animal Basket" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOV-P5-ICQ">
+                                <rect key="frame" x="35" y="231" width="313" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmM-i7-5Vn">
-                                <rect key="frame" x="16" y="10" width="131" height="30"/>
+                                <rect key="frame" x="122" y="286" width="131" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to Main Menu"/>
                                 <connections>
@@ -1004,7 +1036,7 @@ Co-CEOs Kreena and Rishima
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gkl-ud-kJS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3692" y="1791.4542728635683"/>
+            <point key="canvasLocation" x="3661.5999999999999" y="1758.1709145427287"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pqe-kg-Nqw">
@@ -1035,7 +1067,7 @@ Co-CEOs Kreena and Rishima
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwx-5O-wp2">
-                                <rect key="frame" x="16" y="0.0" width="34" height="30"/>
+                                <rect key="frame" x="16" y="18" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -1076,19 +1108,20 @@ Co-CEOs Kreena and Rishima
         <image name="97109" width="600" height="600"/>
         <image name="97151" width="600" height="600"/>
         <image name="Cute Pets For Nice Homes App Design" width="553" height="775"/>
+        <image name="Image" width="512" height="512"/>
         <image name="Screen Shot 2017-05-20 at 10.36.35 AM" width="1434" height="860"/>
         <image name="article-2609135-05D09EA2000005DC-639_634x468" width="634" height="468"/>
         <image name="guinea-pig-booboo-lieveheersbeestje-14" width="880" height="587"/>
         <image name="how-to-crate-train-a-puppy-happy-lab-1" width="1170" height="780"/>
-        <image name="images-2" width="291" height="173"/>
+        <image name="images-2" width="300" height="195"/>
         <image name="photolibrary_rm_photo_of_kitten_in_grass" width="493" height="335"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XeQ-ze-kS6"/>
-        <segue reference="XGA-cm-4o1"/>
-        <segue reference="HmY-f2-bFm"/>
-        <segue reference="Pt4-yA-Ioh"/>
-        <segue reference="q5J-Uv-sdY"/>
+        <segue reference="OxZ-A7-LbA"/>
         <segue reference="j2W-Dk-0Nw"/>
+        <segue reference="NRd-7M-HMF"/>
+        <segue reference="Pt4-yA-Ioh"/>
+        <segue reference="bWW-TL-gLA"/>
+        <segue reference="q5J-Uv-sdY"/>
     </inferredMetricsTieBreakers>
 </document>
