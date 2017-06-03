@@ -105,6 +105,7 @@
 				TargetAttributes = {
 					92DCE5231EBE3D4E00EE8456 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 69KTNVYQYK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -274,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69KTNVYQYK;
 				INFOPLIST_FILE = "Cute Pets for Nice Homes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Girls-Who-Code.Cute-Pets-for-Nice-Homes";
@@ -286,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69KTNVYQYK;
 				INFOPLIST_FILE = "Cute Pets for Nice Homes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Girls-Who-Code.Cute-Pets-for-Nice-Homes";
@@ -313,6 +316,7 @@
 				92DCE5381EBE3D4F00EE8456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
