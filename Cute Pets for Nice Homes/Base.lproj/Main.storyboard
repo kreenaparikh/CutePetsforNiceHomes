@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZpA-Md-TsS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -61,7 +61,7 @@ Co-CEOs Kreena and Rishima
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qa9-iY-dDr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+            <point key="canvasLocation" x="-10" y="359"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MAG-jA-xsI">
@@ -731,9 +731,6 @@ Co-CEOs Kreena and Rishima
                                 <rect key="frame" x="307" y="637" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log out"/>
-                                <connections>
-                                    <segue destination="1Yw-q6-4Az" kind="presentation" id="nlL-s4-qdb"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1087,11 +1084,11 @@ Co-CEOs Kreena and Rishima
         <image name="photolibrary_rm_photo_of_kitten_in_grass" width="493" height="335"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="XeQ-ze-kS6"/>
         <segue reference="XGA-cm-4o1"/>
         <segue reference="HmY-f2-bFm"/>
         <segue reference="Pt4-yA-Ioh"/>
-        <segue reference="nlL-s4-qdb"/>
         <segue reference="q5J-Uv-sdY"/>
-        <segue reference="Dfr-Ao-M3o"/>
+        <segue reference="j2W-Dk-0Nw"/>
     </inferredMetricsTieBreakers>
 </document>
