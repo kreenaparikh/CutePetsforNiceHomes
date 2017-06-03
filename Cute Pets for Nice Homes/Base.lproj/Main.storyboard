@@ -267,21 +267,21 @@ Co-CEOs Kreena and Rishima
                                     <segue destination="1Yw-q6-4Az" kind="presentation" id="toE-1N-q7h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJe-r0-0pb">
-                                <rect key="frame" x="26" y="142" width="134" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Add an Animal">
-                                    <color key="titleColor" red="0.0031776230569999999" green="0.0031776230569999999" blue="0.0031776230569999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="qX7-WO-9od" kind="presentation" id="VXp-76-mZp"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dmp-Pb-e2J">
                                 <rect key="frame" x="9" y="84" width="170" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ENZ-Fe-FFe">
+                                <rect key="frame" x="39" y="140" width="116" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Add an Animal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qX7-WO-9od" kind="presentation" id="82c-pd-fH3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1120,11 +1120,11 @@ Co-CEOs Kreena and Rishima
         <image name="photolibrary_rm_photo_of_kitten_in_grass" width="493" height="335"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Dnu-hs-26J"/>
-        <segue reference="bWW-TL-gLA"/>
-        <segue reference="XGA-cm-4o1"/>
-        <segue reference="Pt4-yA-Ioh"/>
+        <segue reference="toE-1N-q7h"/>
         <segue reference="q5J-Uv-sdY"/>
+        <segue reference="NRd-7M-HMF"/>
+        <segue reference="Pt4-yA-Ioh"/>
+        <segue reference="bWW-TL-gLA"/>
         <segue reference="j2W-Dk-0Nw"/>
     </inferredMetricsTieBreakers>
 </document>
